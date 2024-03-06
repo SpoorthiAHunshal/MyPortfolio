@@ -329,7 +329,8 @@ body.light-theme {
 }
 
 .home__img {
-  width: 160px;
+  width: 400px;
+  height: 400px;
 }
 
 .home__handle {
@@ -435,6 +436,8 @@ body.light-theme {
 /*=============== ABOUT ===============*/
 .about__container {
   row-gap: 2.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .about__img {
@@ -482,6 +485,8 @@ body.light-theme {
 .skills__container {
   row-gap: 2rem;
   padding-top: 1rem;
+  display: flex;
+  justify-content: center ;
 }
 
 .skills__content {
